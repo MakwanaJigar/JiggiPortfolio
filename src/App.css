@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* .......................HOMEPAGE..................... */
+.main {
+  height: 100vh;
+  width: 100%;
+}
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.MyName {
+  font-family: "Black Ops One", cursive;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.homebtn {
+  opacity: 0.5;
+  border-radius: 50px;
+  color: rgb(15, 14, 14);
+  font-weight: bold;
+}
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+}
+
+
+/* .....................contact................................ */
+.contact{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    border: 1px solid white;
+    padding: 10%;
+    background-color: #1a1a1a;
+    /* margin-top: 15%; */
+}
+.form-control{
+    background-color: none;
+    backface-visibility:hidden;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/* .icon{
+    background-color: rgba(220,150,90,.1);
+    height: 20%;
+    width: 15%;
+    border-radius: 50%;
+    display: flex;
+    
+} */
+/* .address{
+    display: 'flex';
+ 
+} */
